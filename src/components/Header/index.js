@@ -10,6 +10,10 @@ const Header = () => (
   >
     <div
       style={{
+        display:'flex',
+        alignItems: 'baseline',
+        justifyContent: 'space-between',
+        flex: '1 1 auto',
         margin: '0 auto',
         maxWidth: 960,
         padding: '1.45rem 1.0875rem',
@@ -27,6 +31,9 @@ const Header = () => (
           José Cabeda
         </Link>
       </h1>
+      <Link to="/projects">Portefolio</Link>
+      <Link to="/blog">Blog</Link>
+      <Link to="/about">About</Link>
     </div>
   </div>
 )
